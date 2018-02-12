@@ -11,7 +11,7 @@ Behold, the power of getstats:
 .. code-block:: python
 
     >>> from getstats import GetStats
-    >>> stat_obj = GetStats.getstats(dur300,rate=10)
+    >>> stat_obj = GetStats.getstats(dur=300,rate=10)
     >>> stat_obj.run_stats()
       Running..........
       ***** Completed capturing the STATS *****
