@@ -51,4 +51,9 @@ Documentation
 -------------
 
 Fantastic documentation is available at readthedocs.
-`documentation <http://getstats.readthedocs.io/en/latest/>`
+`documentation <http://getstats.readthedocs.io/en/latest/>`_
+
+Author Details
+-------------
+Jeevan Chaitanya
+`Profile <https://github.com/jeevan449>`_
