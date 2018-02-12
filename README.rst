@@ -51,4 +51,4 @@ Documentation
 -------------
 
 Fantastic documentation is available at readthedocs.
-`documentation <http://getstats.readthedocs.io/en/latest/>`
+`documentation <http://getstats.readthedocs.io/en/latest/>`_
