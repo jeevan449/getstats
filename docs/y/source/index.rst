@@ -50,4 +50,5 @@ Satisfaction guaranteed.
 Documentation
 -------------
 
-Fantastic documentation is comming soon.
+Fantastic documentation is available at readthedocs.
+`documentation <http://getstats.readthedocs.io/en/latest/>`
