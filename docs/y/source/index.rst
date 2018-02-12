@@ -1,20 +1,53 @@
-.. GetStats documentation master file, created by
-   sphinx-quickstart on Mon Feb 12 17:13:59 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+getstats :: Performance Stats
+============================
 
-Welcome to GetStats's documentation!
-====================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+getstats is the only *Non-GMO* stats library for Python, 
 
 
 
-Indices and tables
-==================
+Behold, the power of getstats:
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. code-block:: python
+
+    >>> from getstats import GetStats
+    >>> stat_obj = GetStats.getstats(dur300,rate=10)
+    >>> stat_obj.run_stats()
+      Running..........
+      ***** Completed capturing the STATS *****
+      ########################################
+      #    stats_2018-02-12_16-47-47_.csv    #
+      ########################################
+
+
+
+
+Feature Support
+---------------
+
+getstats is used to get performance parameters of linux machine.
+
+- CPU,MEM,I/O(wa) stats available
+- Invidual process stats
+- CSV file generation 
+- Stat frequecy (Every 10 seconds get stats)
+- No external lib to be required.(In built python libs are enough).
+
+getstats officially supports Python 2.6–2.7 & 3.4–3.6, and runs great on PyPy.
+
+Installation
+------------
+
+To install getstats, simply use `pipenv <http://pipenv.org/>`_ (or pip, of course):
+
+.. code-block:: bash
+
+    $ pipenv install getstats
+    ✨🍰✨
+
+Satisfaction guaranteed.
+
+Documentation
+-------------
+
+Fantastic documentation is comming soon.
