@@ -4,6 +4,9 @@
 .. image:: https://travis-ci.org/jeevan449/getstats.svg?branch=master
     :target: https://travis-ci.org/jeevan449/getstats
     :alt: Build Status
+.. image:: https://readthedocs.org/projects/getstats/badge/?version=latest
+    :target: http://getstats.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
 
     
 getstats is the only *Non-GMO* stats library for Python, 
