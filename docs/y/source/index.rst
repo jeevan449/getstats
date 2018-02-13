@@ -1,4 +1,4 @@
-getstats :: Performance Stats
+﻿getstats :: Performance Stats
 ============================
 
 
@@ -38,11 +38,11 @@ getstats officially supports Python 2.6–2.7 & 3.4–3.6, and runs great on PyP
 Installation
 ------------
 
-To install getstats, simply use `pipenv <http://pipenv.org/>`_ (or pip, of course):
+To install getstats, 
 
 .. code-block:: bash
 
-    $ pipenv install getstats
+    $ pip install getstats
     ✨🍰✨
 
 Satisfaction guaranteed.
