@@ -1,10 +1,9 @@
 ﻿getstats :: Performance Stats
 ============================
 
+<a href="https://travis-ci.org/jeevan449/getstats/pull_requests"><img src="https://travis-ci.org/jeevan449/getstats/pull_requests.svg" alt="Build Status"></a>
 
 getstats is the only *Non-GMO* stats library for Python, 
-
-
 
 Behold, the power of getstats:
 
