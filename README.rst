@@ -10,7 +10,9 @@
 .. image:: https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg 
    :target: https://saythanks.io/to/jeevan449
 .. image:: https://badge.fury.io/py/getstats.svg
-    :target: https://badge.fury.io/py/getstats
+   :target: https://badge.fury.io/py/getstats
+.. image:: https://snyk.io/test/github/jeevan449/getstats/badge.svg
+   :target: https://snyk.io/test/github/jeevan449/getstats?targetFile=requirements.txt
 
    
 getstats is the only *Non-GMO* stats library for Python, 
