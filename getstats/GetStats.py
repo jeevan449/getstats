@@ -58,6 +58,8 @@ class getstats():
             else:
                 self.pnames = None
             self.initalize_csvnames()
+            print(self.duration)
+            print(self.rate)
 
     def get_usage(self):
         mem = '''vmstat -s | grep 'used memory' | cut -b 1-15'''
@@ -88,7 +90,8 @@ class getstats():
         #    self.pnames1 = self.pnames.split(',')
         if not self.rate:
             self.rate = 1
-        run_dur = (int(self.duration)/int(self.rate))
+        run_dur = int(int(self.duration)/int(self.rate))
+
         for i in range(run_dur):
             self.get_usage()
             time.sleep(int(self.rate))
@@ -104,6 +107,7 @@ class getstats():
 
 
         sys.stdout.flush()
+        return self.filename
 
 
 
