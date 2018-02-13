@@ -7,7 +7,8 @@
 .. image:: https://readthedocs.org/projects/getstats/badge/?version=latest
     :target: http://getstats.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
-
+.. image:: https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg 
+   :target: https://saythanks.io/to/jeevan449
     
 getstats is the only *Non-GMO* stats library for Python, 
 
